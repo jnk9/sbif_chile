@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Sbif Chile Api.}
   spec.description   = %q{obtene informacion financiera SBIF.}
-  spec.homepage      = "https://github.com/nosenadayo/sbif_chile.git"
+  spec.homepage      = "https://github.com/jnk9/sbif_chile"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
