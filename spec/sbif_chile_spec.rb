@@ -14,13 +14,11 @@ describe SbifChile do
 
   it 'date current' do
     @sbif_chile.indicators_current
-    binding.pry
   end
 
   describe '#date_range'
     it 'get data by range all resource' do
       data_euro = @sbif_chile.date_range('euro')
-      binding.pry
       data_ipc = @sbif_chile.date_range('ipc')
       data_tmc = @sbif_chile.date_range('tmc')
       data_tab = @sbif_chile.date_range('tab')
